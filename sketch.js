@@ -284,7 +284,10 @@ var hr = dateTime.slice(11,13);
 
 
 if(hr>=06 && hr<=12){
+    
+   
 
+    imageMode(CORNER);
 bg = "day.jpg";
 
 
@@ -293,6 +296,8 @@ bg = "day.jpg";
 
 else{
 
+ 
+    imageMode(CORNER);
 bg = "night.jpg";
 
 }
